@@ -1,0 +1,301 @@
+html{
+    background-color:#7194A8;
+}
+
+html { scroll-behavior: smooth;}
+
+body {
+  -webkit-text-size-adjust: 100%;
+}
+
+/*画面いっぱいに画像を配置*/
+.contents-frame {
+  background-attachment: fixed;
+  background-image: url(cats.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+/*中に入るもの（テキスト）を縦横中央に配置*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*ぼかし＆微調整*/
+.contents-frame::before {
+  background: inherit;
+  content: '';
+  filter: blur(6px);
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+}
+/*テキストを大きく、白い太文字に*/
+.contents-frame .text-zone{
+  position:absolute;
+  font-size:2.8rem;
+  color:#fff;
+  font-weight:bold;
+}
+.no1{
+    background-color: aliceblue;
+    top: 0;
+    height: 100%;
+}
+
+.no2{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+    margin-bottom: 10%;
+}
+
+.no3{
+    background-color: aliceblue;
+    width: 50%;
+    margin:0 auto;
+    padding: 10px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+/*いちや仕事しろ*/
+
+.no4{
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.no5{
+    font-size: 20px;
+    text-align: center;
+}
+
+li{
+    padding: 10px;
+}
+
+.no6{
+    background-color:aliceblue;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.no7{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+  
+  .flexbox:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .flex-img {
+    width: 43%;
+    padding: 20px;
+  }
+  
+  .flex-title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+  }
+  span{
+    background:linear-gradient(transparent 60%, #6cf 60%);
+  }
+  .flex-item {
+    width: 43%;
+    justify-content: flex-start;
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+  .flex-text {
+    line-height: 3rem;
+  }
+
+.no8{
+    background-color:aliceblue;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.no9{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.no10 {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.no11 {
+  width: 43%;
+  padding: 20px;
+}
+
+.no13 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+span{
+  background:linear-gradient(transparent 60%, #6cf 60%);
+}
+.no12 {
+  width: 43%;
+  justify-content: flex-start;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.no14 {
+  line-height: 3rem;
+}
+
+.no15{
+  background-color: aliceblue;
+  margin-bottom: 10%;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+
+.no16{
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 15%;
+}
+
+.no17{
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: aliceblue;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.no18{
+  font-size: 30px;
+  text-align: center;
+  padding: 50px;
+}
+
+.no19{
+  background-color: aliceblue;
+  margin-bottom: 10%;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+
+.no20{
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.no21{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.no22{
+  height: 40%;
+  width: 70%;
+}
+
+.no23{
+  margin-bottom: 10%;
+}
+
+.no24{
+  background-color: aliceblue;
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 10%;
+}
+
+.no25{
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.no26{
+  background-color: aliceblue;
+  width: 65%;
+  margin: 0 auto;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-bottom: 10%;
+
+}
+
+.no27{
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+}
+
+.no28{
+  font-size: 30px;
+  text-align: center;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+.no29{
+  background-color: aliceblue;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.no30{
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 10%;
+}
+
+.no31{
+  background-color: aliceblue;
+  width: 60%;
+  margin: 0 auto;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.no32{
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+}
